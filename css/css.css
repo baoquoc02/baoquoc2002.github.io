@@ -1,0 +1,330 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face{
+	src: url(../font/MarkaziText-Medium.ttf);
+	font-family: MarkaziText-Medium
+}
+@font-face{
+	src: url(../font/MarkaziText-Regular.ttf);
+	font-family: MarkaziText-Regular
+}
+*{
+	margin: 0;
+	padding: 0
+}
+body {
+ 	overflow: hidden;
+}
+html{
+	scroll-behavior: smooth
+}
+.wrapper{
+	width: 1920px;
+	height: auto;
+	background: red;
+	margin: 0 auto
+}
+.hinh img {
+	position: absolute;
+	left: 380px;
+	transition: 0.5s linear;
+	opacity: 0.5
+}
+.hinh img:hover{
+	transform: scale(1.05);
+	opacity: 0.7
+}
+.content1{
+	width: 1920px;
+	height: 960px;
+	background: #141414;
+	float: left;
+	position: relative
+}
+.header{
+	width: 408px;
+	height: 108px;
+	margin-top: 81px;
+	margin-left: 208px;
+/*	background: red*/
+}
+.logo img{
+	height: 60px;
+	float: left;
+	margin-right: 45px;
+	margin-top: 10px
+}
+.menu{
+	width: 304px;
+	height: 108px;
+/*	background: yellow;*/
+	float: left
+}
+.menu ul{
+	list-style: none
+}
+.menu ul li{
+	display: inline-block;
+	width: auto;
+/*	background: green;*/
+	margin-top: 20px;
+	float: left;
+	margin-right: 55px
+}
+.menu ul li a{
+	text-decoration: none;
+	color: #4D4D4D;
+	font-size: 31px;
+	font-family: MarkaziText-Medium
+}
+.menu a:hover{
+	color: white
+}
+.dropdown_menu{
+	width: 69px;
+	height: 247px;
+/*	background: #4A1819;*/
+	position: fixed;
+	margin-left: 1603px;
+	margin-top: 357px;
+	list-style: none;
+	z-index: 1000000;
+}
+.dropdown_menu i{
+	font-size: 13px;
+	color: white
+}
+.dropdown_menu ul li{
+	list-style: none
+}
+.dropdown_menu ul li a{
+	text-decoration: none;
+	font-size: 13px;
+	font-family: MarkaziText-Medium; 
+	color: white
+}
+.dropdown_menu li .trang {
+/*	background: pink;*/
+	height: 0px;
+	overflow: hidden;
+	transition-duration: 0.2s
+}
+.dropdown_menu li:hover .trang{
+	height: 200px
+}
+.trang li{
+	margin-top: 20px
+}
+.trang a:hover{
+	font-size: 20px
+}
+.body{
+	width: 1920px;
+	height: auto;
+	background: yellow
+}
+.content2{
+	width: 1920px;
+	height: 960px;
+	background: #141414;
+	float: left;
+	position: relative
+}
+.phiasau{
+	width: 800px;
+	height: 400px;
+	background: white;
+	margin-top: 120px;
+}
+.model img{
+	height: 800px;
+	top: 160px;
+	left: 208px;
+	position: absolute
+}
+.content2 p{
+	font-family: MarkaziText-Regular;
+	font-size: 20px;
+	color: white;
+	margin-top: 700px;
+	margin-right: 369px;
+	float: right
+}
+.content3{
+	width: 1920px;
+	height: 960px;
+	background: #141414;
+	float: left
+}
+.name_project_1 p{
+	writing-mode: vertical-rl;
+	letter-spacing: 60px;
+	font-size: 200px;
+	font-family: MarkaziText-Regular;
+	color: white;
+	margin-left: 208px;
+	float: left;
+	margin-top: 200px;
+}
+.zeus img{
+	height: 536px;
+	margin-top: 213px;
+	float: left;
+	margin-left: 209px;
+	transition: 0.5s linear;
+  	filter: grayscale(100%)
+}
+.zeus img:hover{
+	transform: scale(1.05);
+	filter: grayscale(0)
+}
+.text_noidung_1{
+	width: 411px;
+	height: 211px;
+/*	background: #FF8E05;*/
+	float: right;
+	margin-top:539px;
+	margin-right: 213px
+}
+.text_noidung_1 p{
+	font-size: 20px;
+	color: white;
+	font-family: MarkaziText-Regular
+}
+.content4{
+	width: 1920px;
+	height: 960px;
+	background: #141414;
+	float: left
+}
+.name_project_2 p{
+	writing-mode: vertical-rl;
+	font-size: 200px;
+	font-family: MarkaziText-Regular;
+	color: white;
+	margin-right: 213px;
+	float: right;
+	margin-top: 200px;
+}
+.buayeu img{
+	height: 536px;
+	margin-top: 213px;
+	float: right;
+	margin-right: 212px;
+	transition: 0.5s linear;
+  	filter: grayscale(100%)
+}
+.buayeu img:hover{
+	transform: scale(1.05);
+	filter: grayscale(0)
+}
+.text_noidung_2{
+	width: 411px;
+	height: 211px;
+/*	background: #FF8E05;*/
+	float: left;
+	margin-top:539px;
+	margin-left: 208px
+}
+.text_noidung_2 p{
+	font-size: 20px;
+	color: white;
+	font-family: MarkaziText-Regular
+}
+.content5{
+	width: 1920px;
+	height: 960px;
+	background: #141414;
+	float: left
+}
+.name_project_3 p{
+	writing-mode: vertical-rl;
+/*	letter-spacing: 60px;*/
+	font-size: 200px;
+	font-family: MarkaziText-Regular;
+	color: white;
+	margin-left: 208px;
+	float: left;
+	margin-top: 160px;
+}
+.shadow img{
+	height: 536px;
+	margin-top: 213px;
+	float: left;
+	margin-left: 209px;
+	transition: 0.5s linear;
+  	filter: grayscale(100%)
+}
+.shadow img:hover{
+	transform: scale(1.05);
+	filter: grayscale(0)
+}
+.text_noidung_3{
+	width: 411px;
+	height: 211px;
+/*	background: #FF8E05;*/
+	float: right;
+	margin-top:539px;
+	margin-right: 213px
+}
+.text_noidung_3 p{
+	font-size: 20px;
+	color: white;
+	font-family: MarkaziText-Regular
+}
+.footer{
+	width: 1920px;
+	height: 960px;
+	background: #141414;
+	float: left
+}
+.footer img{
+	height: 60px;
+	margin-left: 930px;
+	margin-top: 61px 
+}
+.form{
+	width: 500px;
+/*	background: red;*/
+	margin-top: 77px;
+	margin-left: 700px
+}
+input{
+	width: 500px;
+	height: 50px;
+	border-radius: 10px;
+	font-size: 20px;
+	margin-bottom: 10px;
+	font-family: MarkaziText-Regular
+}
+input[type="submit"]{
+	width: 100px;
+	height: 40px;
+	background: white
+}
+.thong_tin_cua_tui{
+	width: 214px;
+	height: 56px;
+/*	background: red;*/
+	margin: 0 auto;
+	margin-top: 150px
+}
+.thong_tin_cua_tui p{
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	font-family: MarkaziText-Medium
+}
+.social{
+	width: 400px;
+	height: 30px;
+	margin-left: 820px;
+	margin-top: 20px;
+/*	background: red*/
+}
+.social a{
+	font-size: 30px;
+	color: white;
+	margin-right: 100px
+}
+
